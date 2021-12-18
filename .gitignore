@@ -8,6 +8,8 @@
 # testing
 /coverage
 
+metapeer.drawio
+
 # next.js
 /.next/
 /out/
