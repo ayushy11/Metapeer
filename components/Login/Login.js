@@ -7,7 +7,7 @@ function Login() {
   return (
     <div className="bg-black relative text-white">
       <h1>Login</h1>
-      <div className="flex flex-col absolute z-50 h-4/6 w-full items-center justify-center space-y-4">
+      <div className="flex flex-col absolute z-50 h-4/5 w-full items-center justify-center space-y-2">
         <Image
           src="https://avatars.githubusercontent.com/u/69115176?v=4"
           width={200}

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { useMoralis } from "react-moralis";
 
-function Avatar({ username, logoutOnClick }) {
+function Avatar({ username }) {
   const { user, logout } = useMoralis();
 
   return (
@@ -11,7 +11,7 @@ function Avatar({ username, logoutOnClick }) {
         username || user.get("username")
       }.svg`}
       layout="fill"
-      onClick={() => logoutOnClick && logout}
+      onClick={logout}
     />
   );
 }
